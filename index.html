@@ -6,9 +6,9 @@
     <title>lifegroup_married_w-pre-k-kids</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+    <!--<link rel="stylesheet" href="jqueryui/jquery-ui.css">
     <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
-    <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+    <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">-->
 
     <!--FullCalendar Embed code-->
     <link rel="stylesheet" href="fullcalendar/fullcalendar.css" />
@@ -16,60 +16,31 @@
     <script src="lib/moment.min.js"></script>
     <script src="fullcalendar/fullcalendar.js"></script>
 
-    <script type="text/javascript" src="fullcalendar/gcal.js"></script>
-
     <script type="text/javascript">
-
-        $(document).ready(function() {
-
-            $("#calendar").fullCalendar({
-            header: {
-                    left: "prev,next today",
-                    center: "title",
-                    right: "month,basicWeek,basicDay"
-                },
-                // US Holidays
-                events: "https://www.google.com/calendar/feeds/b3eki2m39g1lcfcq3nnl1vb9lo@group.calendar.google.com/public/basic",
-                eventClick: function(event) {
-                    // opens events in a popup window
-                    window.open(event.url, "gcalevent", "width=700,height=600");
-                    return false;
-                },
-
-                loading: function(bool) {
-                    if (bool) {
-                        $("#loading").show();
-                    }else{
-                        $("#loading").hide();
-                    }
-                }
-
-            });
-
-        });
-
-    </script>
-    <!--<script type="text/javascript">
     $(document).ready(function() {
 
         // page is now ready, initialize the calendar...
 
         $("#calendar").fullCalendar({
-            //theme: true
+
         })
 
     });
+    </script>
 
+
+    <script type="text/javascript" src="fullcalendar/gcal.js"></script>
+    <script type="text/javascript">
     $(document).ready(function() {
         $("#calendar").fullCalendar({
             googleCalendarApiKey: "200162627183-vnl2pm5q1pp1h7nj9hihrvsralr01bp9.apps.googleusercontent.com",
             events: {
-                googleCalendarId: "Calendar ID: https://www.google.com/calendar/feeds/b3eki2m39g1lcfcq3nnl1vb9lo@group.calendar.google.com/public/basic"
+                googleCalendarId: "b3eki2m39g1lcfcq3nnl1vb9lo@group.calendar.google.com"
             }
         });
     });
 
-  </script>-->
+  </script>
 
   </head>
   <body>
@@ -78,10 +49,8 @@
     </header>
     <main class="main-content">
     <div id="calendar"></div>
-    <script src="jqueryui/jquery-ui.js"></script>
-    <!--<div class="responsiveCal">-->
-    <!--<iframe src="https://calendar.google.com/calendar/embed?title=Life%20Group%20Calendar&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=b3eki2m39g1lcfcq3nnl1vb9lo%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-    <!--</div>-->
+    <!--<script src="jqueryui/jquery-ui.js"></script>-->
+
     <a href="https://stephmorgan.github.io/directory/">Directory</a>
   </main>
   </body>
