@@ -34,7 +34,7 @@ body{
   flex-direction: column;
 
   font-size: 10px;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
 }
 a{
   text-decoration: none;
@@ -50,13 +50,20 @@ a{
   text-align: center;
   text-transform: uppercase;
   font-family: lakeshore;
-  font-size: 37px;
+  font-size: 22px;
 }
 
 .main-content{
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+}
+
+.directory-link{
+  font-size: 18px;
+  margin-top: 6px;
+  color: white;
+  font-family: serif;
 }
 
 .thumbnail-item + .thumbnail-item{
