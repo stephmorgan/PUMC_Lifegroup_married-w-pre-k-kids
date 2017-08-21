@@ -74,23 +74,19 @@ a{
 #calendar .fc-list-item-title.fc-widget-content:hover{background:black;cursor: pointer;}
 
 .announcement-title{
-  display: block;
   font-size: 18px;
   font-family: serif;
   color: white;
   margin-bottom: 4px;
-  background: rgb(12, 77, 105);
-  border-style: solid;
-  border-width: thin;
-  border-top: white;
 }
 
 .announcement-body{
   font-size: 14px;
   font-family: serif;
-  color: white;
+  color: black;
   margin-top: 0px;
   margin-bottom: 4px;
+  background: rgb(211, 211, 211);
 }
 
 .directory-title{
@@ -104,14 +100,15 @@ a{
 .directory-body{
   font-size: 14px;
   font-family: serif;
-  color: white;
+  color: black;
   margin-top: 0px;
+  background: rgb(211, 211, 211);
 }
 
 .directory-link{
   font-size: 18px;
   margin-top: 6px;
-  color: white;
+  color: rgb(12, 77, 105);
   font-family: serif;
 }
 
