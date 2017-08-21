@@ -69,8 +69,12 @@ a{
   color: white;
 }
 
-#calendar .fc-highlight{
-  color: rgb(211, 211, 211);
+#calendar .fc-event:hover {
+  border-color: #1c7d87;
+}
+
+#calendar .fc-event:hover .fc-content {
+  color: #1c7d87;
 }
 
 .directory-link{
