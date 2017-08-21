@@ -59,6 +59,16 @@ a{
   flex-direction: column;
 }
 
+#calendar{
+  background: rgb(0,0,0);
+  color: white;
+}
+
+#calendar .fc-widget-header{
+  background: rgb(12, 77, 105);
+  color: white;
+}
+
 .directory-link{
   font-size: 18px;
   margin-top: 6px;
