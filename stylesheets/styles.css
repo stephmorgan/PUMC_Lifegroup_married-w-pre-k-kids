@@ -70,7 +70,11 @@ a{
 }
 
 #calendar .fc-highlight{
-  background: rgb(211, 211, 211);
+  color: rgb(211, 211, 211);
+}
+
+#calendar .fc-view {
+    overflow : scroll
 }
 
 .directory-link{
