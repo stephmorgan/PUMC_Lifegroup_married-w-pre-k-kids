@@ -69,7 +69,8 @@ a{
   color: white;
 }
 
-#calendar .fc-widget-content:hover{background:black;cursor: pointer;}
+#calendar .fc-list-item-time.fc-widget-content:hover{background:black;cursor: pointer;}
+#calendar .fc-list-item-title.fc-widget-content:hover{background:black;cursor: pointer;}
 
 .directory-link{
   font-size: 18px;
