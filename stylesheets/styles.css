@@ -70,7 +70,43 @@ a{
 }
 
 #calendar .fc-list-item-time.fc-widget-content:hover{background:black;cursor: pointer;}
+#calendar .fc-list-item-marker.fc-widget-content:hover{background:black;cursor: pointer;}
 #calendar .fc-list-item-title.fc-widget-content:hover{background:black;cursor: pointer;}
+
+.announcement-title{
+  display: block;
+  font-size: 18px;
+  font-family: serif;
+  color: white;
+  margin-bottom: 4px;
+  background: rgb(12, 77, 105);
+  border-style: solid;
+  border-width: thin;
+  border-top: white;
+}
+
+.announcement-body{
+  font-size: 14px;
+  font-family: serif;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.directory-title{
+  font-size: 18px;
+  font-family: serif;
+  color: white;
+  margin-bottom: 4px;
+  margin-top:4px;
+}
+
+.directory-body{
+  font-size: 14px;
+  font-family: serif;
+  color: white;
+  margin-top: 0px;
+}
 
 .directory-link{
   font-size: 18px;
