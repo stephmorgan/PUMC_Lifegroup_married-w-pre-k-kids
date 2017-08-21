@@ -69,13 +69,7 @@ a{
   color: white;
 }
 
-#calendar .fc-event:hover {
-  border-color: #1c7d87;
-}
-
-#calendar .fc-event:hover .fc-content {
-  color: #1c7d87;
-}
+#calendar .fc-content td:hover{background: rgb(12, 77, 105);}
 
 .directory-link{
   font-size: 18px;
