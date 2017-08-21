@@ -69,6 +69,10 @@ a{
   color: white;
 }
 
+#calendar .fc-highlight{
+  background: rgb(211, 211, 211);
+}
+
 .directory-link{
   font-size: 18px;
   margin-top: 6px;
