@@ -49,12 +49,23 @@ a{
 }
 
 .main-content{
-  flex: 1 1 auto;
+  /*flex: 1 1 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;*/
+  /*display: block;*/
+}
+
+.large-screen-layout{
+  display: none;
+}
+
+.lifegroup-main-photo{
+  height: 120px;
+  width: 375px;
 }
 
 #calendar{
+  display: block;
   background: rgb(0,0,0);
   color: white;
 }
@@ -67,6 +78,10 @@ a{
 #calendar .fc-list-item-time.fc-widget-content:hover{background:black;cursor: pointer;}
 #calendar .fc-list-item-marker.fc-widget-content:hover{background:black;cursor: pointer;}
 #calendar .fc-list-item-title.fc-widget-content:hover{background:black;cursor: pointer;}
+
+.announcements-section{
+  display: block;
+}
 
 .announcement-title{
   font-size: 18px;
@@ -82,6 +97,10 @@ a{
   margin-top: 0px;
   margin-bottom: 4px;
   background: rgb(211, 211, 211);
+}
+
+.directory-section{
+  display: block;
 }
 
 .directory-title{
@@ -201,10 +220,34 @@ padding: 4px 10px;
 }
 
 @media all and (min-width: 768px){
-  .main-content{
+  /*.main-content{
     flex-direction: row;
     overflow: hidden;
-  }
+  }*/
+
+.lifegroup-main-photo{
+  width: 600px;
+  height: 475px;
+  padding-right: 25px;
+}
+
+.mobile-screen-layout{
+  display: none;
+}
+
+.large-screen-layout{
+  display: flex;
+}
+
+.screenlayout{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#calendar{
+  width: 600px;
+}
 
   .thumbnail-list{
     flex-direction: column;
